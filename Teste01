@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Teste 01</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="game-board"></div>
+    <button id="start-button">Iniciar Jogo</button>
+    <div id="score">Pontuação: 0</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#game-board {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+/* Adicione mais estilos conforme necessário */
+
+let score = 0;
+
+function startGame() {
+    // Lógica para iniciar o jogo
+}
+
+document.getElementById('start-button').addEventListener('click', startGame);
+
+// Outras funções e lógica do jogo aqui
